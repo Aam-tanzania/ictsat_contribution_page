@@ -49,7 +49,7 @@ CURLOPT_POST => true,
 CURLOPT_SSL_VERIFYPEER => false,
 CURLOPT_SSL_VERIFYHOST => false,
 CURLOPT_HTTPHEADER => [
-"Authorization: Bearer UgGnf1bYJb1vC8MoZXa7LDXcWS6sA7mxWR12MaPgr05kDowvakyzP6jBLsbs",
+"Authorization: Bearer YOUR_API_KEY",
 "Content-Type: application/json"
 ],
 CURLOPT_POSTFIELDS => json_encode($data)

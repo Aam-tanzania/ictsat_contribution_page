@@ -1,0 +1,11 @@
+CREATE TABLE contributions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    contributor_name VARCHAR(100) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    email VARCHAR(100) DEFAULT 'ictsat@teku.ac.tz',
+    amount INT DEFAULT 1000,
+    transaction_id VARCHAR(100),
+    order_id VARCHAR(100),
+    payment_status VARCHAR(50) DEFAULT 'INITIATED',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

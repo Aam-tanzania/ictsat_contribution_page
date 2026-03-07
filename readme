@@ -1,2 +1,3 @@
 Change the API_KEY in the process_payment.php
 Also Change the callback URL
+Use ngrok for the dev use inorder to get the callback_url

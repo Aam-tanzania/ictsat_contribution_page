@@ -1,3 +1,18 @@
-Change the API_KEY in the process_payment.php
-Also Change the callback URL
-Use ngrok for the dev use inorder to get the callback_url
+PalmPesa v2 payment integration
+
+The payment endpoint is:
+https://palmpesa.drmlelwa.co.tz/api/v2/palmpesa/payments
+
+Production configuration can be supplied through these environment variables:
+- PALMPESA_API_TOKEN
+- PALMPESA_CALLBACK_URL
+- PALMPESA_WEBHOOK_SIGNING_SECRET
+
+The testing callback URL is:
+https://tyisha-innovatory-ossie.ngrok-free.dev/ictsat/callback.php
+
+SSL peer and hostname verification are disabled in process_payment.php for
+testing only. Re-enable both checks before production deployment.
+
+Set PALMPESA_WEBHOOK_SIGNING_SECRET in production to verify PalmPesa callback
+signatures. When it is unset, unsigned callbacks are accepted for testing only.

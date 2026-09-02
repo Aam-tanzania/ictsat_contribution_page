@@ -3,7 +3,7 @@ CREATE TABLE contributions (
     contributor_name VARCHAR(100) NOT NULL,
     phone VARCHAR(20) NOT NULL,
     email VARCHAR(100) DEFAULT 'ictsat@teku.ac.tz',
-    amount INT DEFAULT 1000,
+    amount INT DEFAULT 10000,
     transaction_id VARCHAR(100),
     order_id VARCHAR(100),
     payment_status VARCHAR(50) DEFAULT 'INITIATED',

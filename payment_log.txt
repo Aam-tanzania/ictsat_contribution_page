@@ -26,3 +26,26 @@
 [2026-03-07 09:16:27] Order ID received: PALMPESA17728749854271
 [2026-03-07 09:16:27] Data inserted successfully
 [2026-03-07 09:16:27] ----- Request Finished -----
+[2026-09-02 17:37:37] ----- New Payment Request -----
+[2026-09-02 17:37:37] Sending PalmPesa v2 request: {"transaction_id":"20260902173737727934","amount":10000,"currency":"TZS","phone":"0069366242","name":"anord","email":"ictsat@teku.ac.tz","callback_url":"https://wesendsms.co.tz/payment/callback","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT contribution 20260902173737727934"}
+[2026-09-02 17:37:37] PalmPesa cURL error: SSL certificate problem: unable to get local issuer certificate
+[2026-09-02 17:37:37] Unable to contact the payment service. Please try again.
+[2026-09-02 17:47:58] ----- New Payment Request -----
+[2026-09-02 17:47:58] Sending PalmPesa v2 request: {"transaction_id":"20260902174758968088","amount":10000,"currency":"TZS","phone":"0693662424","name":"anorr","email":"ictsat@teku.ac.tz","callback_url":"https://tyisha-innovatory-ossie.ngrok-free.dev/ictsat/callback.ph","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT contribution 20260902174758968088"}
+[2026-09-02 17:48:04] PalmPesa response (HTTP 202): {"success":true,"message":"Payment request sent.","data":{"transaction_id":"20260902174758968088","order_id":"PALMPESAV220260902204758834PZEVLDHX","status":"PENDING"}}
+[2026-09-02 17:48:04] Payment saved: transaction_id=20260902174758968088, order_id=PALMPESAV220260902204758834PZEVLDHX, status=PENDING
+[2026-09-02 17:48:04] ----- Request Finished -----
+[2026-09-02 17:49:56] ----- New Payment Request -----
+[2026-09-02 17:49:56] Sending PalmPesa v2 request: {"transaction_id":"20260902174956688817","amount":200,"currency":"TZS","phone":"0693662424","name":"test new api","email":"ictsat@teku.ac.tz","callback_url":"https://tyisha-innovatory-ossie.ngrok-free.dev/ictsat/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT contribution 20260902174956688817"}
+[2026-09-02 17:50:02] PalmPesa response (HTTP 202): {"success":true,"message":"Payment request sent.","data":{"transaction_id":"20260902174956688817","order_id":"PALMPESAV2202609022049573748KINI0FM","status":"PENDING"}}
+[2026-09-02 17:50:02] Payment saved: transaction_id=20260902174956688817, order_id=PALMPESAV2202609022049573748KINI0FM, status=PENDING
+[2026-09-02 17:50:02] ----- Request Finished -----
+[2026-09-02 18:02:43] Callback: received request; event_id=LOCAL-PENDING-TEST; bytes=394
+[2026-09-02 18:02:43] Callback: accepted; event=payment.pending; event_id=LOCAL-PENDING-TEST; transaction_id=20260902174956688817; order_id=PALMPESAV2202609022049573748KINI0FM; status=PENDING
+[2026-09-02 18:02:57] Callback: received request; event_id=PUBLIC-PENDING-TEST; bytes=395
+[2026-09-02 18:02:57] Callback: accepted; event=payment.pending; event_id=PUBLIC-PENDING-TEST; transaction_id=20260902174956688817; order_id=PALMPESAV2202609022049573748KINI0FM; status=PENDING
+[2026-09-02 18:04:29] ----- New Payment Request -----
+[2026-09-02 18:04:29] Sending PalmPesa v2 request: {"transaction_id":"20260902180429847163","amount":200,"currency":"TZS","phone":"0693662424","name":"test second time","email":"ictsat@teku.ac.tz","callback_url":"https://tyisha-innovatory-ossie.ngrok-free.dev/ictsat/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT contribution 20260902180429847163"}
+[2026-09-02 18:04:35] PalmPesa response (HTTP 202): {"success":true,"message":"Payment request sent.","data":{"transaction_id":"20260902180429847163","order_id":"PALMPESAV2202609022104297543F19HKAI","status":"PENDING"}}
+[2026-09-02 18:04:35] Payment saved: transaction_id=20260902180429847163, order_id=PALMPESAV2202609022104297543F19HKAI, status=PENDING
+[2026-09-02 18:04:35] ----- Request Finished -----

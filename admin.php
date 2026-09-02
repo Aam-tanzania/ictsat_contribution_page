@@ -105,14 +105,14 @@ ICTSAT Club Contributions (TEKU)
 
 $status = $row['payment_status'];
 
-if($status == "PAID"){
-echo "<span class='status-paid'>PAID</span>";
+if($status == "PAID" || $status == "COMPLETED"){
+echo "<span class='status-paid'>" . htmlspecialchars($status) . "</span>";
 }
 elseif($status == "PENDING"){
 echo "<span class='status-pending'>PENDING</span>";
 }
 else{
-echo "<span class='status-failed'>$status</span>";
+echo "<span class='status-failed'>" . htmlspecialchars($status) . "</span>";
 }
 
 ?>

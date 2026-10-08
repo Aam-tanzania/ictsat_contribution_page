@@ -1,28 +1,72 @@
-[2026-03-07 08:54:24] ----- New Payment Request -----
-[2026-03-07 08:54:24] User Input - Name: Anold Amri Mwinuka , Phone: 0693662424
-[2026-03-07 08:54:24] Sending API Request: {"name":"Anold Amri Mwinuka","email":"ictsat@teku.ac.tz","phone":"0693662424","amount":1000,"transaction_id":"1772873664196","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/yourdomain.com\/callback.php"}
-[2026-03-07 08:54:29] API Response: {"message":"Payment initiated. Processing will continue asynchronously.","order_id":"PALMPESA17728736669840"}
-[2026-03-07 08:54:29] Order ID received: PALMPESA17728736669840
-[2026-03-07 08:54:29] Data inserted successfully
-[2026-03-07 08:54:29] ----- Request Finished -----
-[2026-03-07 09:04:38] ----- New Payment Request -----
-[2026-03-07 09:04:38] User Input - Name: Anold Amri Mwinuka , Phone: 0693662424
-[2026-03-07 09:04:38] Sending API Request: {"name":"Anold Amri Mwinuka","email":"ictsat@teku.ac.tz","phone":"0693662424","amount":1000,"transaction_id":"1772874278483","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
-[2026-03-07 09:04:43] API Response: {"message":"Payment initiated. Processing will continue asynchronously.","order_id":"PALMPESA17728742803113"}
-[2026-03-07 09:04:43] Order ID received: PALMPESA17728742803113
-[2026-03-07 09:04:43] Data inserted successfully
-[2026-03-07 09:04:43] ----- Request Finished -----
-[2026-03-07 09:08:00] ----- New Payment Request -----
-[2026-03-07 09:08:00] User Input - Name: SANDARYA MARTINE NYAKIKOTYO , Phone: 0747958913
-[2026-03-07 09:08:00] Sending API Request: {"name":"SANDARYA MARTINE NYAKIKOTYO","email":"ictsat@teku.ac.tz","phone":"0747958913","amount":1000,"transaction_id":"1772874480222","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
-[2026-03-07 09:08:05] API Response: {"message":"Payment initiated. Processing will continue asynchronously.","order_id":"PALMPESA17728744828499"}
-[2026-03-07 09:08:05] Order ID received: PALMPESA17728744828499
-[2026-03-07 09:08:05] Data inserted successfully
-[2026-03-07 09:08:05] ----- Request Finished -----
-[2026-03-07 09:16:23] ----- New Payment Request -----
-[2026-03-07 09:16:23] User Input - Name: Anord Amri , Phone: 069366242
-[2026-03-07 09:16:23] Sending API Request: {"name":"Anord Amri","email":"ictsat@teku.ac.tz","phone":"069366242","amount":1000,"transaction_id":"1772874983616","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
-[2026-03-07 09:16:27] API Response: {"message":"Payment initiated. Processing will continue asynchronously.","order_id":"PALMPESA17728749854271"}
-[2026-03-07 09:16:27] Order ID received: PALMPESA17728749854271
-[2026-03-07 09:16:27] Data inserted successfully
-[2026-03-07 09:16:27] ----- Request Finished -----
+[2026-10-08 14:16:20] ----- New Payment Request -----
+[2026-10-08 14:16:21] User Input - Name: anold , Phone: 693662424
+[2026-10-08 14:16:21] Sending API Request: {"name":"anold","email":"ictsat@teku.ac.tz","phone":"693662424","amount":1000,"transaction_id":"1791458181866","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
+[2026-10-08 14:16:24] API Response: {"message":"Failed to initiate payment with PalmPesa","details":{"message":"Payment failed","error":"Name must contain at-least 2 words"}}
+[2026-10-08 14:16:24] Order ID received: 
+[2026-10-08 14:16:25] Data inserted successfully
+[2026-10-08 14:16:25] ----- Request Finished -----
+[2026-10-08 14:30:07] ----- New Payment Request -----
+[2026-10-08 14:30:07] User Input - Name: tester , Phone: 0693662424
+[2026-10-08 14:30:07] Sending API Request: {"name":"tester","email":"ictsat@teku.ac.tz","phone":"0693662424","amount":1000,"transaction_id":"1791459007148","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
+[2026-10-08 14:30:08] API Response: {"message":"Failed to initiate payment with PalmPesa","details":{"message":"Payment failed","error":"Name must contain at-least 2 words"}}
+[2026-10-08 14:30:08] Order ID received: 
+[2026-10-08 14:30:08] Data inserted successfully
+[2026-10-08 14:30:08] ----- Request Finished -----
+[2026-10-08 14:31:07] ----- New Payment Request -----
+[2026-10-08 14:31:07] User Input - Name: Anord Amri , Phone: 0693662424
+[2026-10-08 14:31:07] Sending API Request: {"name":"Anord Amri","email":"ictsat@teku.ac.tz","phone":"0693662424","amount":1000,"transaction_id":"1791459067346","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
+[2026-10-08 14:31:17] API Response: {"message":"Payment initiated. The result arrives by webhook.","order_id":"PALMPESA17914590675388"}
+[2026-10-08 14:31:17] Order ID received: PALMPESA17914590675388
+[2026-10-08 14:31:17] Data inserted successfully
+[2026-10-08 14:31:17] ----- Request Finished -----
+[2026-10-08 14:35:10] ----- New Payment Request -----
+[2026-10-08 14:35:10] User Input - Name: anord mwinuka , Phone: 0693662424
+[2026-10-08 14:35:10] Sending API Request: {"name":"anord mwinuka","email":"ictsat@teku.ac.tz","phone":"0693662424","amount":1000,"transaction_id":"1791459310553","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
+[2026-10-08 14:35:18] API Response: {"message":"Internal server error"}
+[2026-10-08 14:35:18] Order ID received: 
+[2026-10-08 14:35:18] Data inserted successfully
+[2026-10-08 14:35:18] ----- Request Finished -----
+[2026-10-08 14:38:08] ----- New Payment Request -----
+[2026-10-08 14:38:08] User Input - Name: anord amri , Phone: 0693662424
+[2026-10-08 14:38:08] Sending API Request: {"name":"anord amri","email":"ictsat@teku.ac.tz","phone":"0693662424","amount":1000,"transaction_id":"1791459488816","address":"Mbeya","postcode":"53000","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php"}
+[2026-10-08 14:38:15] API Response: {"message":"Payment initiated. The result arrives by webhook.","order_id":"PALMPESA17914594904564"}
+[2026-10-08 14:38:15] Order ID received: PALMPESA17914594904564
+[2026-10-08 14:38:15] Data inserted successfully
+[2026-10-08 14:38:15] ----- Request Finished -----
+[2026-10-08 15:16:39] ----- New Payment Request -----
+[2026-10-08 15:16:39] User Input - Name: anord Tester , Phone: 0693662424
+[2026-10-08 15:16:39] Sending API Request: {"transaction_id":"ICTSAT20261008151639199","amount":200,"currency":"TZS","phone":"0693662424","name":"anord Tester","email":"ictsat@teku.ac.tz","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT TEKU contribution"}
+[2026-10-08 15:16:41] cURL Error: SSL certificate problem: unable to get local issuer certificate
+[2026-10-08 15:17:50] ----- New Payment Request -----
+[2026-10-08 15:17:50] User Input - Name: Anord v two , Phone: 0693662424
+[2026-10-08 15:17:50] Sending API Request: {"transaction_id":"ICTSAT20261008151750661","amount":200,"currency":"TZS","phone":"0693662424","name":"Anord v two","email":"ictsat@teku.ac.tz","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT TEKU contribution"}
+[2026-10-08 15:17:52] API Response: {"success":true,"message":"Payment accepted.","data":{"transaction_id":"ICTSAT20261008151750661","order_id":"PALMPESAV2A20261008151750625BGD3TKYG","status":"INITIATING","failure_reason":null,"amount":200,"currency":"TZS","reference":null,"channel":null,"created_at":"2026-10-08 15:17:50","updated_at":"2026-10-08 15:17:50","status_url":"https:\/\/palmpesa.co.tz\/api\/v2\/async\/payments\/PALMPESAV2A20261008151750625BGD3TKYG"}}
+[2026-10-08 15:17:52] Order ID received: PALMPESAV2A20261008151750625BGD3TKYG
+[2026-10-08 15:17:52] Data inserted successfully
+[2026-10-08 15:17:52] ----- Request Finished -----
+[2026-10-08 15:31:32] ----- New Payment Request -----
+[2026-10-08 15:31:32] User Input - Name: Anord Amri Mwinuka , Phone: 0693662424
+[2026-10-08 15:31:32] Sending API Request: {"transaction_id":"ICTSAT20261008153132281","amount":200,"currency":"TZS","phone":"0693662424","name":"Anord Amri Mwinuka","email":"ictsat@teku.ac.tz","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT TEKU contribution"}
+[2026-10-08 15:31:33] API Response: {"success":true,"message":"Payment accepted.","data":{"transaction_id":"ICTSAT20261008153132281","order_id":"PALMPESAV2A202610081531329093SBJ89ET","status":"INITIATING","failure_reason":null,"amount":200,"currency":"TZS","reference":null,"channel":null,"created_at":"2026-10-08 15:31:32","updated_at":"2026-10-08 15:31:32","status_url":"https:\/\/palmpesa.co.tz\/api\/v2\/async\/payments\/PALMPESAV2A202610081531329093SBJ89ET"}}
+[2026-10-08 15:31:33] PalmPesa initiation response received after 1373 ms (HTTP 202)
+[2026-10-08 15:31:33] Order ID received: PALMPESAV2A202610081531329093SBJ89ET
+[2026-10-08 15:31:33] Data inserted successfully
+[2026-10-08 15:31:33] ----- Request Finished -----
+[2026-10-08 15:33:48] ----- New Payment Request -----
+[2026-10-08 15:33:48] User Input - Name: Malix Technology , Phone: 0693662424
+[2026-10-08 15:33:48] Sending API Request: {"transaction_id":"ICTSAT20261008153348644","amount":200,"currency":"TZS","phone":"0693662424","name":"Malix Technology","email":"ictsat@teku.ac.tz","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT TEKU contribution"}
+[2026-10-08 15:33:49] API Response: {"success":true,"message":"Payment accepted.","data":{"transaction_id":"ICTSAT20261008153348644","order_id":"PALMPESAV2A20261008153348436ZCEN5QWB","status":"INITIATING","failure_reason":null,"amount":200,"currency":"TZS","reference":null,"channel":null,"created_at":"2026-10-08 15:33:48","updated_at":"2026-10-08 15:33:48","status_url":"https:\/\/palmpesa.co.tz\/api\/v2\/async\/payments\/PALMPESAV2A20261008153348436ZCEN5QWB"}}
+[2026-10-08 15:33:49] PalmPesa initiation response received after 1055 ms (HTTP 202)
+[2026-10-08 15:33:49] Order ID received: PALMPESAV2A20261008153348436ZCEN5QWB
+[2026-10-08 15:33:49] Data inserted successfully
+[2026-10-08 15:33:49] ----- Request Finished -----
+[2026-10-08 15:35:11] ----- New Payment Request -----
+[2026-10-08 15:35:11] User Input - Name: Malix Technology , Phone: 0693662424
+[2026-10-08 15:35:11] Sending API Request: {"transaction_id":"ICTSAT20261008153511161","amount":200,"currency":"TZS","phone":"0693662424","name":"Malix Technology","email":"ictsat@teku.ac.tz","callback_url":"https:\/\/tyisha-innovatory-ossie.ngrok-free.dev\/ictsat\/callback.php","buyer_remarks":"ICTSAT contribution","merchant_remarks":"ICTSAT TEKU contribution"}
+[2026-10-08 15:35:12] API Response: {"success":true,"message":"Payment accepted.","data":{"transaction_id":"ICTSAT20261008153511161","order_id":"PALMPESAV2A2026100815351181742REAKDX","status":"INITIATING","failure_reason":null,"amount":200,"currency":"TZS","reference":null,"channel":null,"created_at":"2026-10-08 15:35:11","updated_at":"2026-10-08 15:35:11","status_url":"https:\/\/palmpesa.co.tz\/api\/v2\/async\/payments\/PALMPESAV2A2026100815351181742REAKDX"}}
+[2026-10-08 15:35:12] PalmPesa initiation response received after 1152 ms (HTTP 202)
+[2026-10-08 15:35:12] Order ID received: PALMPESAV2A2026100815351181742REAKDX
+[2026-10-08 15:35:12] Data inserted successfully
+[2026-10-08 15:35:12] ----- Request Finished -----
+[2026-10-08 12:35:31 UTC] CALLBACK received order_id=PALMPESAV2A2026100815351181742REAKDX status=COMPLETED payload_bytes=373
+[2026-10-08 12:35:31 UTC] CALLBACK saved callback log #1 contribution_id=36 initiation_to_callback_ms=20290
